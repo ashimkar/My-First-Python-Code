@@ -22,7 +22,6 @@ print(name)
 print(age)
 print(attractive)
 
-
 #ashim = 30
 #shifat = 30
 #hemel = 30
@@ -32,3 +31,25 @@ print(ashim)
 print(shifat)
 print(hemel)
 print(joy)
+
+name = "ashim kar"
+print(len(name))
+print(name.find("a"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count("a"))
+print(name.replace("a" , "o"))
+print(name*3)
+
+x = 1 #int
+y = 2.0 #float
+z = "3" #str
+x = float(x)
+y = int(y)
+z = int(z)
+print(x)
+print(y)
+print(z*3)
