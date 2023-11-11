@@ -53,3 +53,11 @@ z = int(z)
 print(x)
 print(y)
 print(z*3)
+
+name = input("what is your name?: ")
+age = int(input("what is your age?: "))
+age += 1
+height = float(input("how tall are you?: "))
+print("hello "+name)
+print("you are "+ str(age) + " years old")
+print("you are "+ str(height)+ "cm tall")
